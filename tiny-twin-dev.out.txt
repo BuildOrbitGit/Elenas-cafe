@@ -1,0 +1,15 @@
+
+> elenas-cafe-website@1.0.0 dev
+> next dev -p 3010
+
+▲ Next.js 16.2.9 (Turbopack)
+- Local:         http://localhost:3010
+- Network:       http://192.168.1.68:3010
+- Environments: .env.local
+✓ Ready in 6.7s
+
+ GET / 200 in 13.5s (next.js: 10.3s, application-code: 3.2s)
+ GET / 200 in 332ms (next.js: 135ms, application-code: 197ms)
+ GET / 200 in 1649ms (next.js: 460ms, application-code: 1189ms)
+ GET / 200 in 1396ms (next.js: 415ms, application-code: 981ms)
+[?25h

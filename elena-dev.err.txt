@@ -1,0 +1,45 @@
+[browser] Image with src "/elena/food/food-2.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading (file://C:/Users/Harsh/Documents/New project/.next/dev/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477:13)
+[browser] Image with src "/elena/food/food-3.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading (file://C:/Users/Harsh/Documents/New project/.next/dev/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477:13)
+[browser] Image with src "/elena/food/food-2.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading (file://C:/Users/Harsh/Documents/New project/.next/dev/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477:13)
+[browser] Uncaught ReferenceError: FloatingImage is not defined
+    at HomePage (file://C:/Users/Harsh/Documents/New project/.next/dev/static/chunks/src_components_HomePage_tsx_0zr89sn._.js?id=%255Bproject%255D%252Fsrc%252Fcomponents%252FHomePage.tsx+%255Bapp-client%255D+%2528ecmascript%2529:1214:240)
+    at Object.react_stack_bottom_frame (file://C:/Users/Harsh/Documents/New project/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:15037:24)
+    at renderWithHooks (file://C:/Users/Harsh/Documents/New project/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:4620:24)
+    at updateFunctionComponent (file://C:/Users/Harsh/Documents/New project/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:6081:21)
+    at beginWork (file://C:/Users/Harsh/Documents/New project/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:6691:24)
+    at runWithFiberInDEV (file://C:/Users/Harsh/Documents/New project/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:965:74)
+    at performUnitOfWork (file://C:/Users/Harsh/Documents/New project/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:9555:97)
+    at workLoopSync (file://C:/Users/Harsh/Documents/New project/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:9449:40)
+    at renderRootSync (file://C:/Users/Harsh/Documents/New project/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:9433:13)
+    at performWorkOnRoot (file://C:/Users/Harsh/Documents/New project/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:9061:186)
+    at performSyncWorkOnRoot (file://C:/Users/Harsh/Documents/New project/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:10263:9)
+    at flushSyncWorkAcrossRoots_impl (file://C:/Users/Harsh/Documents/New project/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:10179:316)
+    at processRootScheduleInMicrotask (file://C:/Users/Harsh/Documents/New project/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:10200:106)
+    at <unknown> (file://C:/Users/Harsh/Documents/New project/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js:10274:158)
+    at Page (src\app\page.tsx:4:10)
+  2 |
+  3 | export default function Page() {
+> 4 |   return <HomePage />;
+    |          ^
+  5 | }
+  6 |
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[browser] Image with src "/elena/background/exterior-1.jpg" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height. (file://C:/Users/Harsh/Documents/New project/.next/dev/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477:13)
+[browser] Image with src "/elena/menu-items/ultimate-loaded-breakfast.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading (file://C:/Users/Harsh/Documents/New project/.next/dev/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477:13)
+[browser] Image with src "/elena/drinks/drink-1.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading (file://C:/Users/Harsh/Documents/New project/.next/dev/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477:13)
+[browser] Image with src "/elena/menu-items/spanish-latte-espresso.jpg" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height. (file://C:/Users/Harsh/Documents/New project/.next/dev/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477:13)
+[browser] Image with src "/elena/menu-items/deluxe-chicken-panini.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading (file://C:/Users/Harsh/Documents/New project/.next/dev/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477:13)
+[browser] Image with src "/elena/menu-items/deluxe-chicken-panini.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading (file://C:/Users/Harsh/Documents/New project/.next/dev/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477:13)
+[browser] Image with src "/elena/menu-items/deluxe-chicken-panini.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading (file://C:/Users/Harsh/Documents/New project/.next/dev/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477:13)
+[browser] Image with src "/elena/menu-items/deluxe-chicken-panini.jpg" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height. (file://C:/Users/Harsh/Documents/New project/.next/dev/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477:13)
+[browser] Image with src "/elena/menu-items/saucy-sunday-bowl.jpg" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height. (file://C:/Users/Harsh/Documents/New project/.next/dev/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477:13)
+[browser] Image with src "/elena/menu-items/deluxe-chicken-panini.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading (file://C:/Users/Harsh/Documents/New project/.next/dev/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477:13)

@@ -1,0 +1,104 @@
+@import "tailwindcss";
+
+:root {
+  --cream: #fff7e7;
+  --leaf: #21452c;
+  --olive: #768348;
+  --sage: #dfe9d2;
+  --wood: #b48656;
+  --ink: #1e271e;
+}
+
+@theme inline {
+  --font-sans: var(--font-body);
+  --font-display: var(--font-heading);
+  --color-cream: #fff7e7;
+  --color-emerald-950: #153322;
+  --color-olive-100: #eef2df;
+  --color-olive-200: #dce7bc;
+  --color-olive-600: #7b8848;
+  --color-olive-700: #637038;
+  --color-olive-800: #465523;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  background: var(--cream);
+}
+
+body {
+  margin: 0;
+  color: var(--ink);
+  background:
+    radial-gradient(circle at top left, rgba(123, 136, 72, 0.16), transparent 30rem),
+    linear-gradient(180deg, #fff7e7 0%, #edf4e5 48%, #fffaf0 100%);
+  font-family: var(--font-body), ui-sans-serif, system-ui, sans-serif;
+}
+
+::selection {
+  background: var(--olive);
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+.section-pad {
+  padding: 7rem 1.25rem;
+}
+
+.section-eyebrow {
+  color: var(--olive);
+  font-size: 0.76rem;
+  font-weight: 800;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.section-title {
+  color: var(--leaf);
+  font-family: var(--font-heading), Georgia, serif;
+  font-size: clamp(2.9rem, 6vw, 5.8rem);
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 0.92;
+}
+
+.section-copy {
+  color: #625b4f;
+  font-size: 1.08rem;
+  line-height: 1.85;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1.35rem;
+  max-width: 46rem;
+}
+
+.paper-texture {
+  background-image:
+    linear-gradient(90deg, rgba(21, 51, 34, 0.035) 1px, transparent 1px),
+    linear-gradient(rgba(21, 51, 34, 0.025) 1px, transparent 1px);
+  background-size: 36px 36px;
+}
+
+@media (max-width: 768px) {
+  .section-pad {
+    padding: 5rem 1rem;
+  }
+}

@@ -1,0 +1,9 @@
+IMPORTANT: Restore these two filenames after downloading:
+
+eslint.config.mjs.txt  ->  eslint.config.mjs
+postcss.config.mjs.txt ->  postcss.config.mjs
+
+Remove only the final ".txt" from each filename before running:
+
+npm install
+npm run dev

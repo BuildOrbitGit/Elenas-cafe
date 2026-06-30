@@ -1,0 +1,48 @@
+
+> tiny-twin-cafe-website@1.0.0 dev
+> next dev -p 3000
+
+▲ Next.js 16.2.9 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.1.68:3000
+- Environments: .env.local
+✓ Ready in 1337ms
+
+ GET / 200 in 1637ms (next.js: 1064ms, application-code: 573ms)
+ GET / 200 in 1578ms (next.js: 1412ms, application-code: 166ms)
+ GET / 200 in 87ms (next.js: 7ms, application-code: 80ms)
+✓ Compiled in 3.5s
+✓ Compiled in 18.4s
+ GET / 200 in 4.8s (next.js: 4.6s, application-code: 241ms)
+ GET / 200 in 768ms (next.js: 58ms, application-code: 710ms)
+ GET / 200 in 627ms (next.js: 26ms, application-code: 601ms)
+ GET / 200 in 551ms (next.js: 20ms, application-code: 531ms)
+✓ Compiled in 2.8s
+✓ Compiled in 5.8s
+ GET / 200 in 2.0s (next.js: 345ms, application-code: 1677ms)
+ GET / 200 in 1376ms (next.js: 353ms, application-code: 1023ms)
+✓ Compiled in 10.3s
+ GET / 200 in 6.1s (next.js: 3.7s, application-code: 2.4s)
+ GET / 200 in 3.9s (next.js: 685ms, application-code: 3.2s)
+ GET / 200 in 1707ms (next.js: 481ms, application-code: 1226ms)
+ GET / 200 in 8.3s (next.js: 2.2s, application-code: 6.1s)
+✓ Finished writing to filesystem cache in 10.9s
+ GET / 200 in 20.3s (next.js: 3.2s, application-code: 17.2s)
+ GET / 200 in 16.8s (next.js: 13.8s, application-code: 3.0s)
+ GET / 200 in 365ms (next.js: 87ms, application-code: 278ms)
+ GET / 200 in 777ms (next.js: 128ms, application-code: 649ms)
+ GET / 200 in 17.6s (next.js: 72ms, application-code: 17.6s)
+ GET / 200 in 1576ms (next.js: 392ms, application-code: 1183ms)
+ GET / 200 in 1542ms (next.js: 757ms, application-code: 785ms)
+ GET / 200 in 7.8s (next.js: 3.2s, application-code: 4.6s)
+ GET / 200 in 2.0s (next.js: 324ms, application-code: 1710ms)
+ GET / 200 in 2.4s (next.js: 600ms, application-code: 1809ms)
+ GET / 200 in 3.2s (next.js: 927ms, application-code: 2.3s)
+ GET / 200 in 6.3s (next.js: 2.2s, application-code: 4.2s)
+▲ Next.js 16.2.9 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.1.68:3000
+- Environments: .env.local
+✓ Ready in 2.4s
+
+[?25h

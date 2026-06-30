@@ -1,0 +1,9 @@
+assets/videos/
+chrome-temp-profile*/
+chrome-log-profile/
+*-dom.html
+*-err.txt
+browser-check*
+aph-*.html
+aph-*.txt
+*.zip

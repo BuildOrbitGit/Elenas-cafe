@@ -1,0 +1,93 @@
+@import "tailwindcss";
+
+:root {
+  --charcoal: #202020;
+  --gold: #d6a52c;
+  --burgundy: #a9474f;
+  --paper: #ffffff;
+  --ink: #151515;
+}
+
+@theme inline {
+  --font-sans: var(--font-body);
+  --font-display: var(--font-heading);
+  --color-charcoal: #202020;
+  --color-gold: #d6a52c;
+  --color-burgundy: #a9474f;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  background: var(--paper);
+}
+
+body {
+  margin: 0;
+  color: var(--ink);
+  background:
+    radial-gradient(circle at top left, rgba(214, 165, 44, 0.12), transparent 32rem),
+    linear-gradient(180deg, #ffffff 0%, #f7f5ef 48%, #ffffff 100%);
+  font-family: var(--font-body), ui-sans-serif, system-ui, sans-serif;
+}
+
+body::selection {
+  background: var(--gold);
+  color: var(--charcoal);
+}
+
+a {
+  text-decoration: none;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+.industrial-texture {
+  background-image:
+    linear-gradient(135deg, rgba(255, 255, 255, 0.05) 25%, transparent 25%),
+    linear-gradient(225deg, rgba(255, 255, 255, 0.05) 25%, transparent 25%),
+    linear-gradient(45deg, rgba(255, 255, 255, 0.04) 25%, transparent 25%),
+    linear-gradient(315deg, rgba(255, 255, 255, 0.04) 25%, rgba(32, 32, 32, 0.05) 25%);
+  background-position: 14px 0, 14px 0, 0 0, 0 0;
+  background-size: 28px 28px;
+}
+
+.clip-angle {
+  clip-path: polygon(0 0, 92% 0, 100% 100%, 0 100%);
+}
+
+.gold-sheen {
+  position: relative;
+  overflow: hidden;
+}
+
+.gold-sheen::after {
+  background: linear-gradient(110deg, transparent, rgba(255, 255, 255, 0.45), transparent);
+  content: "";
+  inset: 0;
+  position: absolute;
+  transform: translateX(-120%);
+  transition: transform 650ms ease;
+}
+
+.gold-sheen:hover::after {
+  transform: translateX(120%);
+}
+
+.section-pad {
+  padding: 7rem 1.25rem;
+}
+
+@media (max-width: 768px) {
+  .section-pad {
+    padding: 4.5rem 1rem;
+  }
+}

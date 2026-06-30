@@ -1,0 +1,23 @@
+
+> elenas-cafe-website@1.0.0 dev
+> next dev -p 3000
+
+▲ Next.js 16.2.9 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.1.68:3000
+- Environments: .env.local
+✓ Ready in 1881ms
+
+ GET / 200 in 2.7s (next.js: 2.0s, application-code: 709ms)
+ GET / 200 in 1823ms (next.js: 535ms, application-code: 1288ms)
+✓ Compiled in 11.9s
+ GET / 200 in 3.7s (next.js: 3.3s, application-code: 394ms)
+ GET / 200 in 61ms (next.js: 8ms, application-code: 53ms)
+ GET / 200 in 2.7s (next.js: 164ms, application-code: 2.5s)
+ GET / 200 in 1171ms (next.js: 504ms, application-code: 667ms)
+✓ Compiled in 7.8s
+ GET / 200 in 5.1s (next.js: 4.4s, application-code: 721ms)
+ GET / 200 in 241ms (next.js: 12ms, application-code: 228ms)
+ GET / 200 in 157ms (next.js: 13ms, application-code: 144ms)
+ GET / 200 in 2.2s (next.js: 334ms, application-code: 1853ms)
+ GET / 200 in 4.0s (next.js: 477ms, application-code: 3.6s)

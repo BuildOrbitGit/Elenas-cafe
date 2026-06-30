@@ -1,0 +1,31 @@
+
+> tiny-twin-cafe-website@1.0.0 dev
+> next dev -p 3000
+
+▲ Next.js 16.2.9 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.1.68:3000
+- Environments: .env.local
+✓ Ready in 2.6s
+
+○ Compiling / ...
+✓ Finished writing to filesystem cache in 16.0s
+ HEAD / 200 in 1488ms (next.js: 366ms, application-code: 1123ms)
+ GET / 200 in 2.1s (next.js: 230ms, application-code: 1880ms)
+ GET / 200 in 1544ms (next.js: 812ms, application-code: 731ms)
+ GET / 200 in 6.6s (next.js: 2.5s, application-code: 4.1s)
+ GET / 200 in 3.8s (next.js: 3.0s, application-code: 782ms)
+✓ Compiled in 23.8s
+ GET / 200 in 7.5s (next.js: 6.9s, application-code: 598ms)
+ GET / 200 in 8.9s (next.js: 6.0s, application-code: 2.9s)
+ GET / 200 in 3.0s (next.js: 273ms, application-code: 2.7s)
+ GET / 200 in 764ms (next.js: 242ms, application-code: 522ms)
+ GET / 200 in 418ms (next.js: 14ms, application-code: 404ms)
+ GET / 200 in 4.6s (next.js: 1505ms, application-code: 3.1s)
+✓ Compiled in 17.7s
+ GET / 200 in 24.1s (next.js: 21.2s, application-code: 2.9s)
+ GET / 200 in 24.8s (next.js: 24.4s, application-code: 341ms)
+ GET / 200 in 4.9s (next.js: 716ms, application-code: 4.2s)
+✓ Compiled in 8.8s
+ GET / 200 in 1317ms (next.js: 514ms, application-code: 803ms)
+ GET / 200 in 7.1s (next.js: 3.2s, application-code: 3.9s)
