@@ -1,23 +1,35 @@
 import { zodResolver } from '@hookform/resolvers/zod';
-import { Link, router } from 'expo-router';
+import { Link } from 'expo-router';
+import { useState } from 'react';
 import { Controller, useForm } from 'react-hook-form';
 import { StyleSheet, View } from 'react-native';
 
 import { AppButton, AppText, FormField, Screen, SectionHeader } from '@/components/ui';
+import { useAuth } from '@/providers/AuthProvider';
 import { colors, spacing } from '@/theme';
 import { loginSchema, LoginValues } from '@/validation/auth';
 
 export default function LoginScreen() {
+  const { signIn } = useAuth();
+  const [authError, setAuthError] = useState<string | null>(null);
   const {
     control,
     handleSubmit,
-    formState: { errors },
+    formState: { errors, isSubmitting },
   } = useForm<LoginValues>({
     resolver: zodResolver(loginSchema),
     defaultValues: { email: '', password: '' },
   });
 
-  const submit = () => router.replace('/(family)');
+  const submit = async ({ email, password }: LoginValues) => {
+    setAuthError(null);
+
+    try {
+      await signIn(email, password);
+    } catch (error) {
+      setAuthError(error instanceof Error ? error.message : 'Unable to sign in. Please try again.');
+    }
+  };
 
   return (
     <Screen contentStyle={styles.screen}>
@@ -57,7 +69,14 @@ export default function LoginScreen() {
             />
           )}
         />
-        <AppButton label="Sign in" onPress={handleSubmit(submit)} />
+        {authError ? (
+          <View accessibilityRole="alert" style={styles.error}>
+            <AppText color="danger" variant="caption">
+              {authError}
+            </AppText>
+          </View>
+        ) : null}
+        <AppButton label="Sign in" loading={isSubmitting} onPress={handleSubmit(submit)} />
       </View>
       <AppText align="center" color="inkMuted">
         New to CareCircle?{' '}
@@ -73,4 +92,9 @@ const styles = StyleSheet.create({
   screen: { paddingTop: spacing.xxl },
   form: { gap: spacing.lg },
   link: { color: colors.primary, fontWeight: '700' },
+  error: {
+    backgroundColor: colors.dangerSoft,
+    borderRadius: 12,
+    padding: spacing.md,
+  },
 });

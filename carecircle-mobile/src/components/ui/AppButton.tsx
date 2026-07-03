@@ -36,12 +36,12 @@ export function AppButton({
     <Pressable
       accessibilityRole="button"
       disabled={disabled || loading}
-      style={({ pressed }) => [
+      style={(state) => [
         styles.button,
         { backgroundColor: palette.backgroundColor, borderColor: palette.borderColor },
-        pressed && styles.pressed,
+        state.pressed && styles.pressed,
         (disabled || loading) && styles.disabled,
-        typeof style === 'function' ? style({ pressed }) : style,
+        typeof style === 'function' ? style(state) : style,
       ]}
       {...props}>
       {loading ? (
